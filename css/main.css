@@ -75,8 +75,10 @@ i:hover{
 .subnav i {
     padding-top: 4px;
 }
-.white {
+.closenav {
     color:#fff;
+    padding-top: 15px;
+    padding-right: 15px;
 }
 i {
     float:right;
@@ -89,32 +91,7 @@ i {
     bottom: 50px;
     padding: 20px;
 }
-/* .subhead {
-    text-align: center;
-    font-family: 'Lao', sans-serif;
-    text-transform :uppercase;
-    font-size: 20px;
 
-}
-.head {
-    font-size: 40px;
-    font-weight: 900;
-}
-#carousel {
-    padding-top: 40px;
-    max-width: 70%;
-    margin: auto;
-}
-.date {
-    text-align: center;
-    font-family: 'Lao', sans-serif;
-    text-transform :uppercase;
-    font-size: 30px;
-    position: absolute;
-    float: left;
-    top: 50%;
-    margin-left: 3%;
-} */
 #icons-perma {
     position: absolute;
     float: left;
