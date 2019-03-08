@@ -1,0 +1,179 @@
+body {
+    background: radial-gradient(circle at center, rgb(1, 36, 49) 0%, rgb(0, 16, 21) 80%);
+    color: #fff;
+
+}
+
+.bg {
+    background-image: url(../image/target.svg);
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 60vh;
+    height: 60vh;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+
+}
+i:hover{
+    cursor: pointer;
+}
+/* side navigation menu */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right:0;
+  background: linear-gradient(45deg,#ff7300,#f8348c); /* Black*/
+  overflow-x: hidden;
+  padding-top: 20px;
+  transition: 0.15s;
+}
+.sidenav .inner {
+    width: 80%;
+    text-transform :uppercase;
+    font-family: 'Lato', sans-serif;
+    margin-left: 20%;
+    margin-top: 40vh;
+    font-size: 30px;
+
+    font-weight: 900;
+    line-height: 1.9;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+.sidenav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+
+}
+
+.subnav {
+    height : 70px;
+    /* background: linear-gradient(45deg,#99ff99,#66ffff); */
+    margin-top: 15px;
+    padding: 15px;
+}
+.subnav button,.subnav i {
+    float:right;
+    margin-right: 30px;
+    color: #fff;
+}
+.subnav i {
+    padding-top: 4px;
+}
+.white {
+    color:#fff;
+}
+i {
+    float:right;
+    margin-right: 30px;
+    color: #fff;
+}
+.icons {
+    width:80%;
+    position: absolute;
+    bottom: 50px;
+    padding: 20px;
+}
+/* .subhead {
+    text-align: center;
+    font-family: 'Lao', sans-serif;
+    text-transform :uppercase;
+    font-size: 20px;
+
+}
+.head {
+    font-size: 40px;
+    font-weight: 900;
+}
+#carousel {
+    padding-top: 40px;
+    max-width: 70%;
+    margin: auto;
+}
+.date {
+    text-align: center;
+    font-family: 'Lao', sans-serif;
+    text-transform :uppercase;
+    font-size: 30px;
+    position: absolute;
+    float: left;
+    top: 50%;
+    margin-left: 3%;
+} */
+#icons-perma {
+    position: absolute;
+    float: left;
+    left: 2%;
+    bottom: 5%;
+}
+.nav_but {
+    border-width: 3px;
+    text-align: center;
+    font-family: 'Lao', sans-serif;
+    text-transform :uppercase;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.subhead {
+    position: absolute;
+    width: 100%;
+    top :35%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    /* text-transform :uppercase; */
+    font-size: 22px;
+    color: #ffd132;
+
+}
+
+i {
+
+}
+
+.head {
+    font-size: 85px;
+    color: #fff;
+}
+.nextSection {
+    background: #fff;
+    position: absolute;
+    width: 140px;
+    height: 70px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    cursor: pointer;
+    text-align: center;
+    line-height: 95px;
+}
+.nextSection i {
+    color: #000;
+    float: none;
+    margin-right: 0;
+}
+
+
+#pixie {
+ z-index:-1;
+ position: absolute;
+ top: 0;
+ left: 0;
+}
