@@ -1,5 +1,5 @@
 body {
-    background: radial-gradient(circle at center, rgb(1, 36, 49) 0%, rgb(0, 16, 21) 80%);
+    background: radial-gradient(circle at 1010px 475px, rgb(1, 36, 49) 0%, rgb(0, 16, 21) 100%);
     color: #fff;
 
 }
@@ -128,7 +128,7 @@ i {
     color: #fff;
 }
 .nextSection {
-    background: #fff;
+    background: #E0E0E0;
     position: absolute;
     width: 140px;
     height: 70px;
