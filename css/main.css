@@ -25,7 +25,7 @@ body {
 .bg:before {
     content: "";
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     background-image: linear-gradient(to top left, #022d47, #090b17);
     position: absolute;
     top: 0;
@@ -40,7 +40,7 @@ i:hover{
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   top: 0;
   right:0;
   background: linear-gradient(45deg,#ff7300,#f8348c); /* Black*/
@@ -76,7 +76,8 @@ i:hover{
 
 .subnav {
     position: fixed;
-    width: 100%;
+    z-index: 1;
+    width: 100vw;
     height : 60px;
     top: 0;
     padding: 10px 5px 10px 5px;
@@ -118,6 +119,7 @@ i {
     bottom: 5%;
 }
 .nav_but {
+
     border-width: 3px;
     text-align: center;
     font-family: 'Lao', sans-serif;
@@ -247,7 +249,21 @@ i {
 
 }
 
+#map {
+    position: absolute;
+    top: 100px;
+    width: 50%;
+    right: 8%;
+    height: 80vh;
+    background-color: grey;
+}
 
+#locate_us {
+    position: relative;
+background-color: #a40606;
+background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);
+height: 100vh;
+}
 @media (max-width: 600px)  {
     .width {
         width: 100%;
