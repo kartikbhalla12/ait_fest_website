@@ -77,10 +77,10 @@ i:hover{
 .subnav {
     position: fixed;
     width: 100%;
-    height : 70px;
-    /* background: linear-gradient(45deg,#99ff99,#66ffff); */
-    top: 15px;
-    padding: 15px;
+    height : 60px;
+    background: #000;
+    top: 0;
+    padding: 10px 5px 10px 5px;
 }
 .subnav button,.subnav i {
     float:right;
@@ -145,9 +145,9 @@ i {
 }
 .nextSection {
     background: #E0E0E0;
-    position: absolute;
-    width: 140px;
-    height: 70px;
+    position: fixed;
+    width: 100px;
+    height: 50px;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     bottom: 0;
@@ -155,7 +155,8 @@ i {
     transform: translate(-50%, 0);
     cursor: pointer;
     text-align: center;
-    line-height: 7;
+    line-height: 5;
+    opacity: 0.8;
 }
 .nextSection i {
     color: #000;
@@ -177,7 +178,7 @@ i {
 
 .dotstyle ul {
     z-index: 1;
-    position: absolute;
+    position: fixed;
 	display: block;
     right: 3%;
 	top: 35%;
