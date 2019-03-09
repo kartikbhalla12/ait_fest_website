@@ -165,11 +165,11 @@ i {
     .nextSection {
         width: 80px;
         height: 40px;
-        line-height: 4;
+        line-height: 3.5;
      }
      .bg {
-         width: 50vh;
-         height: 50vh;
+         width: 45vh;
+         height: 45vh;
      }
      #icons-perma {
          bottom: 2%;
@@ -181,6 +181,10 @@ i {
     }
     #icons-perma {
         bottom: 2%;
+    }
+    .bg {
+        width: 50vh;
+        height: 50vh;
     }
 
 }
