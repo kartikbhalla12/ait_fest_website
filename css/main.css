@@ -18,6 +18,7 @@ body {
     display: block; */
     width: 100vw;
     height: 100vh;
+    background-position: center; 
     /* -webkit-transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%); */
