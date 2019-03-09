@@ -132,6 +132,7 @@ i {
 .head {
     font-size: 85px;
     color: #fff;
+
 }
 .nextSection {
     background: #E0E0E0;
@@ -242,12 +243,15 @@ i {
         height: 40px;
         line-height: 3.8;
      }
-     .bg {
+     /* .bg {
          width: 45vh;
          height: 45vh;
-     }
+     } */
      #icons-perma {
          bottom: 2%;
+     }
+     .dotstyle ul {
+         display: none;
      }
 }
 @media (max-width: 750px) and (min-width:600px) {
@@ -257,11 +261,13 @@ i {
     #icons-perma {
         bottom: 2%;
     }
-    .bg {
+    /* .bg {
         width: 50vh;
         height: 50vh;
+    } */
+    .dotstyle ul {
+        display: none;
     }
-
 }
 @media (max-width: 900px) and (min-width:750px) {
     .width {
