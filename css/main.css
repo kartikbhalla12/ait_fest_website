@@ -263,6 +263,9 @@ i {
      .dotstyle ul {
          display: none;
      }
+     .nav_but {
+         display: none;
+     }
 }
 @media (max-width: 750px) and (min-width:600px) {
     .width {
@@ -276,6 +279,9 @@ i {
         height: 50vh;
     } */
     .dotstyle ul {
+        display: none;
+    }
+    .nav_but {
         display: none;
     }
 }
