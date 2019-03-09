@@ -1,10 +1,10 @@
 
 function openNav() {
-  document.getElementById("mySidenav").style.width = "25%";
+  document.getElementById("mySidenav").classList.add("width");
 }
 
 function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("mySidenav").classList.remove("width");
 }
 var WIDTH;
 var HEIGHT;
