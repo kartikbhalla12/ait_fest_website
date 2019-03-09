@@ -15,8 +15,8 @@ var pxs = new Array();
 var rint = 50;
 
 $(document).ready(function(){
-  WIDTH = window.outerWidth;
-  HEIGHT = window.outerHeight-200;
+  WIDTH = window.innerWidth;
+  HEIGHT = window.innerHeight - 0.2*window.innerHeight;
 	$('#container').width(WIDTH).height(HEIGHT);
 	canvas = document.getElementById('pixie');
 	$(canvas).attr('width', WIDTH).attr('height',HEIGHT);
