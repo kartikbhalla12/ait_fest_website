@@ -328,7 +328,7 @@ h3 {
 
      #loc_info {
          position: absolute;
-         top: 10%;
+         top: 8%;
          left: 17%;
          text-align: center;
      }
@@ -369,7 +369,7 @@ h3 {
     }
     #loc_info {
         position: absolute;
-        top: 10%;
+        top: 8%;
         left: 30%;
         text-align: center;
     }
@@ -394,14 +394,14 @@ h3 {
     }
     #map {
         top: 400px;
-        left :2%;
-        width: 95%;
+        left :1%;
+        width: 98%;
         height: 53vh;
     }
 
     #loc_info {
         position: absolute;
-        top: 10%;
+        top: 7%;
         left: 30%;
         text-align: center;
     }
