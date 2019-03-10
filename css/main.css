@@ -305,9 +305,10 @@ h3 {
      }
      #map {
          top: 350px;
-         left :10%;
-         width: 80%;
-         height: 40vh;
+         left :2%;
+         /* right: 2%; */
+         width: 96%;
+         height: 50vh;
          background-color: grey;
      }
 
@@ -336,9 +337,9 @@ h3 {
     }
     #map {
         top: 350px;
-        left :10%;
-        width: 80%;
-        height: 40vh;
+        left :2%;
+        width: 96%;
+        height: 50vh;
     }
 }
 @media (max-width: 900px) and (min-width:750px) {
@@ -346,10 +347,10 @@ h3 {
         width: 50%;
     }
     #map {
-        top: 250px;
-        left :10%;
-        width: 80%;
-        height: 60vh;
+        top: 350px;
+        left :2%;
+        width: 95%;
+        height: 55vh;
     }
 
 }

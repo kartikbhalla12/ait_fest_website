@@ -13,7 +13,10 @@ function initMap() {
   var uluru = {lat: 28.654248, lng: 77.2680235};
   // The map, centered at Uluru
   var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 16, styles: [
+      document.getElementById('map'), {zoom: 16,
+          mapTypeControl: false,
+          streetViewControl: false,
+          styles: [
             {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
             {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
             {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
