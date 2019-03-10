@@ -267,7 +267,7 @@ height: 100vh;
 
 #loc_info {
     position: absolute;
-    top: 200px;
+    top: 40%;
     left: 100px;
 }
 
@@ -314,7 +314,7 @@ h3 {
 
      #loc_info {
          position: absolute;
-         top: 50px;
+         top: 15%;
          left: 16%;
          text-align: center;
      }
@@ -341,10 +341,19 @@ h3 {
         width: 96%;
         height: 50vh;
     }
+    #loc_info {
+        position: absolute;
+        top: 15%;
+        left: 30%;
+        text-align: center;
+    }
 }
 @media (max-width: 900px) and (min-width:750px) {
     .width {
         width: 50%;
+    }
+    .dotstyle ul {
+        display: none;
     }
     #map {
         top: 350px;
@@ -353,10 +362,33 @@ h3 {
         height: 55vh;
     }
 
+    #loc_info {
+        position: absolute;
+        top: 15%;
+        left: 30%;
+        text-align: center;
+    }
 }
 @media (max-width: 1300px) and (min-width:900px) {
     .width {
         width: 40%;
+    }
+    .dotstyle ul {
+        display: none;
+    }
+    #map {
+        right: 2%;
+        height: 80vh;
+        width: 55vw;
+    }
+    .bg {
+        font-size: 20px;
+    }
+    #loc_info {
+        position: absolute;
+        top: 45%;
+        left: 3%;
+
     }
 
 }
