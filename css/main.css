@@ -1,3 +1,5 @@
+html { overflow-x: hidden; }
+
 body {
     background: radial-gradient(circle at 1010px 475px, rgb(1, 36, 49) 0%, rgb(0, 16, 21) 100%);
     color: #fff;
@@ -311,10 +313,6 @@ h3 {
 
 
 @media (max-width: 600px)  {
-    body {
-        overflow-x: hidden;
-    }
-
     .width {
         width: 100%;
     }
