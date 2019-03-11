@@ -308,7 +308,7 @@ i {
 }
 
 #con_info {
-    padding-top: 10vh;
+    padding-top: 25vh;
     text-align: center;
 }
 #cont_logo {
@@ -360,7 +360,7 @@ i {
     margin-top: 20px;
 }
 .shift {
-    margin-left: 80px;
+    margin-left: 15%;
 }
 
 #madeBy {
@@ -429,8 +429,20 @@ i {
          font-size: 20px;
      }
 
+     #col2 {
+         display: none;
+     }
+     #con_info div div h3 i{
+         margin-left: 23%;
+     }
+     #con_info div div h3 .fa-facebook-f {
+         margin-left: 25%;
+     }
+     .shift {
+         margin-left: 8%;
+     }
 }
-@media (max-width: 750px) and (min-width:600px) {
+@media (max-width: 750px) and (min-width:601px) {
     .width {
         width: 70%;
     }
@@ -467,8 +479,20 @@ i {
     #loc_info h3 {
         font-size: 20px;
     }
+    #col2 {
+        display: none;
+    }
+    #con_info div div h3 i{
+        margin-left: 23%;
+    }
+    #con_info div div h3 .fa-facebook-f {
+        margin-left: 25%;
+    }
+    .shift {
+        margin-left: 8%;
+    }
 }
-@media (max-width: 900px) and (min-width:750px) {
+@media (max-width: 900px) and (min-width:751px) {
     .width {
         width: 50%;
     }
@@ -499,8 +523,20 @@ i {
     #loc_info h3 {
         font-size: 20px;
     }
+    #col2 {
+        display: none;
+    }
+    #con_info div div h3 i{
+        margin-left: 31%;
+    }
+    #con_info div div h3 .fa-facebook-f {
+        margin-left: 33%;
+    }
+    .shift {
+        margin-left: 8%;
+    }
 }
-@media (max-width: 1300px) and (min-width:900px) {
+@media (max-width: 1300px) and (min-width:901px) {
     .width {
         width: 40%;
     }
@@ -522,9 +558,12 @@ i {
         left: 3%;
 
     }
+    #con_info {
+        max-width: 900px;
+    }
 
 }
-@media (max-width: 1500px) and (min-width:1300px) {
+@media (max-width: 1500px) and (min-width:1301px) {
     .width {
         width: 30%;
     }
