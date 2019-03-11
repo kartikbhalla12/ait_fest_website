@@ -103,7 +103,7 @@ i:hover{
     padding-top: 15px;
     padding-right: 15px;
 }
-i {
+.icons i,#icons-perma i,#loc_info h3 i,#mySidenav i {
     float:right;
     margin-right: 30px;
     color: #fff;
@@ -140,10 +140,6 @@ i {
     /* text-transform :uppercase; */
     font-size: 22px;
     color: #ffd132;
-
-}
-
-i {
 
 }
 
@@ -285,7 +281,7 @@ h3 {
     text-align: left;
 }
 #loc_info i {
-    float: left;
+    float: left !important;
 
 }
 .loc_text {
@@ -304,7 +300,9 @@ h3 {
     height: 100vh;
 }
 
-
+#con_info {
+    text-align: center;
+}
 
 
 
