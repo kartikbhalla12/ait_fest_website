@@ -90,6 +90,9 @@ i:hover{
     position: absolute;
     margin: 10px 0 15px 15px;
 }
+#main_logo{
+    max-width: 70%;
+}
 .subnav button,.subnav i {
     float:right;
     margin-right: 30px;
@@ -365,7 +368,8 @@ i {
     height: 5vh;
     text-align: center;
     text-transform: uppercase;
-    padding: 1vh; 
+    padding: 1vh;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 #madeBy i{
     float:none;
@@ -378,6 +382,7 @@ i {
     .width {
         width: 100%;
     }
+
     .nextSection {
         width: 80px;
         height: 40px;
@@ -420,7 +425,6 @@ i {
      #loc_info h3 {
          font-size: 20px;
      }
-
 
 }
 @media (max-width: 750px) and (min-width:600px) {
