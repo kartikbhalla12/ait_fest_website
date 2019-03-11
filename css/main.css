@@ -379,6 +379,9 @@ i {
 }
 
 @media (max-width: 600px)  {
+    body {
+        overflow-x: visible;
+    }
     .width {
         width: 100%;
     }
