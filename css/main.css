@@ -311,6 +311,10 @@ h3 {
 
 
 @media (max-width: 600px)  {
+    body {
+        overflow-x: hidden;
+    }
+
     .width {
         width: 100%;
     }
