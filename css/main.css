@@ -1,4 +1,4 @@
-html { overflow-x: hidden; }
+html { overflow-x: hidden;scroll-behavior: smooth; }
 
 body {
     background: radial-gradient(circle at 1010px 475px, rgb(1, 36, 49) 0%, rgb(0, 16, 21) 100%);
@@ -572,10 +572,10 @@ i {
          display: none;
      }
      #con_info div div h3 i{
-         margin-left: 23%;
+         margin-left: 19%;
      }
      #con_info div div h3 .fa-facebook-f {
-         margin-left: 25%;
+         margin-left: 21%;
      }
      .shift {
          margin-left: 8%;
