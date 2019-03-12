@@ -103,8 +103,8 @@ i:hover{
 }
 .closenav {
     color:#fff;
-    padding-top: 15px;
-    padding-right: 15px;
+    /* padding-top: 15px;
+    padding-right: 15px; */
 }
 i {
     float:right;
