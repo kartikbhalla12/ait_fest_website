@@ -637,3 +637,36 @@ i {
     }
 
 }
+
+@media (max-height: 600px){
+    #map {
+        height: 26vh;
+    }
+    #con_info {
+        padding-top: 5vh;
+    }
+    #madeBy {
+        padding: 0vh;
+    }
+}
+
+@media (max-height: 700px) and (min-height: 601px){
+    #map {
+        height: 33vh;
+    }
+    #con_info {
+        padding-top: 5vh;
+    }
+    #madeBy {
+        padding: 0vh;
+    }
+}
+
+@media (max-height: 800px) and (min-height: 701px){
+    #map {
+        height: 42vh;
+    }
+    #madeBy {
+        padding: 0vh;
+    }
+}
