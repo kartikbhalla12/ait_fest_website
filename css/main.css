@@ -304,7 +304,7 @@ i {
 #contact_us {
     background: #000000;
     background: linear-gradient(to top, #000000, #646464);
-    height: 85vh;
+    height: 88vh;
 }
 
 #con_info {
@@ -365,7 +365,7 @@ i {
 
 #madeBy {
     background: #000000;
-    height: 15vh;
+    height: 12vh;
     text-align: center;
     text-transform: uppercase;
     padding: 1vh;
