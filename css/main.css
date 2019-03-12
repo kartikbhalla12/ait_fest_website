@@ -304,11 +304,11 @@ i {
 #contact_us {
     background: #000000;
     background: linear-gradient(to top, #000000, #646464);
-    height: 95vh;
+    height: 85vh;
 }
 
 #con_info {
-    padding-top: 25vh;
+    padding-top: 20vh;
     text-align: center;
 }
 #cont_logo {
@@ -365,7 +365,7 @@ i {
 
 #madeBy {
     background: #000000;
-    height: 5vh;
+    height: 15vh;
     text-align: center;
     text-transform: uppercase;
     padding: 1vh;
@@ -714,10 +714,15 @@ i {
         height: 26vh;
     }
     #con_info {
-        padding-top: 5vh;
+        padding-top: 10vh;
+
+    }
+    #contact_us {
+        height: 95vh;
     }
     #madeBy {
         padding: 0vh;
+        height: 5vh;
     }
 }
 
@@ -726,7 +731,7 @@ i {
         height: 33vh;
     }
     #con_info {
-        padding-top: 20vh;
+        padding-top: 10vh;
     }
     #madeBy {
         padding: 0vh;
@@ -738,7 +743,7 @@ i {
         height: 42vh;
     }
     #con_info {
-        padding-top: 20vh;
+        padding-top: 10vh;
     }
     #madeBy {
         padding: 0vh;
