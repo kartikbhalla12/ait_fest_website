@@ -1,4 +1,6 @@
 
+//SIDENAV 
+
 function openNav() {
   document.getElementById("mySidenav").classList.add("width");
 }
@@ -7,7 +9,8 @@ function closeNav() {
   document.getElementById("mySidenav").classList.remove("width");
 }
 
-// Initialize and add the map
+// LOCATE US MAP
+
 function initMap() {
   // The location of Uluru
   var uluru = {lat: 28.654248, lng: 77.2680235};
@@ -101,6 +104,7 @@ function initMap() {
   var marker = new google.maps.Marker({position: uluru, map: map});
 }
 
+// JUGNU CANVAS
 
 var WIDTH;
 var HEIGHT;
