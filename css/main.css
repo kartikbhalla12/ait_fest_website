@@ -377,8 +377,76 @@ i {
     margin:0 3px;
 
 }
+@media (max-width: 400px) {
+    body {
+        overflow-x: visible;
+    }
+    .width {
+        width: 100%;
+    }
 
-@media (max-width: 600px)  {
+    .nextSection {
+        width: 80px;
+        height: 40px;
+        line-height: 3.8;
+     }
+
+     #icons-perma {
+         bottom: 2%;
+     }
+     .dotstyle ul {
+         display: none;
+     }
+     .nav_but {
+         display: none;
+     }
+     #map {
+         top: 400px;
+         left :2%;
+         /* right: 2%; */
+         width: 96%;
+         height: 50vh;
+         background-color: grey;
+     }
+
+     #loc_info {
+         position: absolute;
+         top: 8%;
+         left:6%;
+         text-align: center;
+     }
+     .big {
+         font-size: 50px;
+         margin-bottom: 20px;
+     }
+     .loc_text  {
+         text-align: left;
+         /* font-size: 17px; */
+         padding: 5px 0px 10px 55px;
+     }
+     #loc_info h3 {
+         font-size: 20px;
+     }
+
+     #col2 {
+         display: none;
+     }
+     #con_info div div h3 {
+         font-size: 25px;
+     }
+
+     #con_info div div h3 i{
+         margin-left: 15%;
+     }
+     #con_info div div h3 .fa-facebook-f {
+         margin-left: 17%;
+     }
+     .shift {
+         margin-left: 8%;
+     }
+}
+
+@media (max-width: 600px)  and (min-width:401px)  {
     body {
         overflow-x: visible;
     }
