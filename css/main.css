@@ -377,7 +377,78 @@ i {
     margin:0 3px;
 
 }
-@media (max-width: 400px) {
+@media (max-width: 340px) {
+    body {
+        overflow-x: visible;
+    }
+    .width {
+        width: 100%;
+    }
+
+    .nextSection {
+        width: 80px;
+        height: 40px;
+        line-height: 3.8;
+     }
+
+     #icons-perma {
+         bottom: 2%;
+     }
+     .dotstyle ul {
+         display: none;
+     }
+     .nav_but {
+         display: none;
+     }
+     #map {
+         top: 400px;
+         left :2%;
+         /* right: 2%; */
+         width: 96%;
+         height: 50vh;
+         background-color: grey;
+     }
+
+     #loc_info {
+         position: absolute;
+         top: 8%;
+         left:6%;
+         text-align: center;
+     }
+     .big {
+         font-size: 50px;
+         margin-bottom: 20px;
+     }
+     .loc_text  {
+         text-align: left;
+         /* font-size: 17px; */
+         padding: 5px 0px 10px 55px;
+     }
+     #loc_info h3 {
+         font-size: 20px;
+     }
+
+     #col2 {
+         display: none;
+     }
+     #con_info div div h3 {
+         font-size: 20px;
+     }
+
+     #con_info div div h3 i{
+         margin-left: 4%;
+     }
+     #con_info div div h3 .fa-facebook-f {
+         margin-left: 7%;
+     }
+     .shift {
+         margin-left: 5%;
+         font-size: 20px;
+     }
+}
+
+
+@media (max-width: 400px) and (min-width: 341px) {
     body {
         overflow-x: visible;
     }
@@ -655,7 +726,7 @@ i {
         height: 33vh;
     }
     #con_info {
-        padding-top: 5vh;
+        padding-top: 20vh;
     }
     #madeBy {
         padding: 0vh;
@@ -665,6 +736,9 @@ i {
 @media (max-height: 800px) and (min-height: 701px){
     #map {
         height: 42vh;
+    }
+    #con_info {
+        padding-top: 20vh;
     }
     #madeBy {
         padding: 0vh;
