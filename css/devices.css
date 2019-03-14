@@ -398,7 +398,7 @@
     }
 }
 
-@media screen and (max-height: 325px) and (max-width: 600px) and (orientation: landscape)
+@media screen and (max-height: 325px) and (max-width: 700px) and (orientation: landscape)
 {
     body {
         overflow-x: visible;
