@@ -376,6 +376,9 @@
     body {
         overflow-x: visible;
     }
+    #icons-perma .fa-2x{
+        font-size: 1em;
+    }
     .width {
         width: 40%;
     }
@@ -445,7 +448,7 @@
         display: none;
     }
     #con_info div div h1{
-        margin-bottom: 20px;
+        margin-bottom: 25px;
     }
     #con_info div div h3 {
         /* display: flex; */
@@ -480,12 +483,12 @@
     }
     #mail_id {
         position: absolute;
-        top :65vh;
-        left: 17vw;
+        top :67vh;
+        left: 16vw;
     }
     #madeBy {
         text-transform: uppercase;
-        margin-bottom: 3vh;
+        /* margin-bottom: 5px; */
         font-size: 13px;
     }
 
