@@ -374,7 +374,7 @@
     }
 }
 
-@media screen and (max-height: 300px) and (max-width: 600px) and (orientation: landscape)
+@media screen and (max-height: 325px) and (max-width: 600px) and (orientation: landscape)
 {
     body {
         overflow-x: visible;
@@ -496,7 +496,7 @@
     }
 
 }
-@media screen and (max-height: 450px) and (max-width: 1000px) and (min-height: 301px) and (min-width: 601px) and (orientation: landscape)
+@media screen and (max-height: 450px) and (max-width: 1000px) and (min-height: 326px) and (min-width: 601px) and (orientation: landscape)
 {
     body {
         overflow-x: visible;
