@@ -302,7 +302,9 @@ i {
     background: linear-gradient(to top, #000000, #646464);
     height: 88vh;
 }
-
+.col_land_device {
+    display: none;
+}
 #con_info {
     padding-top: 20vh;
     text-align: center;
@@ -352,7 +354,7 @@ i {
     margin-left: 27%;
 }
 
-#call {
+#con_call {
     margin-top: 20px;
 }
 .shift {

@@ -1,5 +1,5 @@
 
-//SIDENAV 
+//SIDENAV
 
 function openNav() {
   document.getElementById("mySidenav").classList.add("width");

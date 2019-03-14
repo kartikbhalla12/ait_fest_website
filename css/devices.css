@@ -1,4 +1,4 @@
-@media (max-width: 340px) {
+@media (max-width: 340px) and (orientation: portrait){
     body {
         overflow-x: visible;
     }
@@ -69,7 +69,7 @@
 }
 
 
-@media (max-width: 400px) and (min-width: 341px) {
+@media (max-width: 400px) and (min-width: 341px) and (orientation: portrait) {
     body {
         overflow-x: visible;
     }
@@ -138,7 +138,7 @@
      }
 }
 
-@media (max-width: 600px)  and (min-width:401px)  {
+@media (max-width: 600px)  and (min-width:401px) and (orientation: portrait) {
     body {
         overflow-x: visible;
     }
@@ -202,7 +202,7 @@
          margin-left: 8%;
      }
 }
-@media (max-width: 750px) and (min-width:601px) {
+@media (max-width: 750px) and (min-width:601px) and (orientation: portrait) {
     .width {
         width: 70%;
     }
@@ -252,7 +252,7 @@
         margin-left: 8%;
     }
 }
-@media (max-width: 900px) and (min-width:751px) {
+@media (max-width: 900px) and (min-width:751px) and (orientation: portrait) {
     .width {
         width: 50%;
     }
@@ -296,7 +296,7 @@
         margin-left: 8%;
     }
 }
-@media (max-width: 1300px) and (min-width:901px) {
+@media (max-width: 1300px) and (min-width:901px) and (orientation: portrait) {
     .width {
         width: 40%;
     }
@@ -323,7 +323,7 @@
     }
 
 }
-@media (max-width: 1500px) and (min-width:1301px) {
+@media (max-width: 1500px) and (min-width:1301px) and (orientation: portrait) {
     .width {
         width: 30%;
     }
@@ -347,7 +347,7 @@
     }
 }
 
-@media (max-height: 700px) and (min-height: 601px){
+@media (max-height: 700px) and (min-height: 601px) and (orientation: portrait) {
     #map {
         height: 33vh;
     }
@@ -359,7 +359,7 @@
     }
 }
 
-@media (max-height: 800px) and (min-height: 701px){
+@media (max-height: 800px) and (min-height: 701px) and (orientation: portrait){
     #map {
         height: 42vh;
     }
@@ -369,4 +369,124 @@
     #madeBy {
         padding: 0vh;
     }
+}
+
+@media (max-height: 300px) and (max-width: 600px) and (orientation: landscape)
+{
+    body {
+        overflow-x: visible;
+    }
+    .width {
+        width: 40%;
+    }
+    .sidenav .inner {
+        width: 50%;
+        margin-left: 20%;
+        margin-top: 44vh;
+        font-size: 17px;
+        font-weight:900;
+        line-height: 1.9;
+        transform: translateY(-50%);
+        position: absolute;
+    }
+    .icons {
+        display: none;
+    }
+    .subnav {
+        width: 100vw;
+        height : 40px;
+        top: 0;
+        padding:8px 5px 5px 5px;
+    }
+    #logo {
+        margin: 2px 0 0 15px;
+        font-size: 15px;
+    }
+    .fa-bars{
+        font-size: 1em;
+    }
+    .fa-times{
+        font-size: 1em;
+    }
+    .dotstyle ul {
+        display: none;
+    }
+    .nav_but {
+        display: none;
+    }
+    #loc_info {
+        position: absolute;
+        top: 7%;
+        left: 4%;
+        text-align: center;
+    }
+    .big {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    #loc_info h3 {
+        font-size: 19px;
+    }
+    .loc_text {
+        font-size: 15px;
+        padding: 10px 0px 10px 55px;
+    }
+    #map {
+        top: 65px;
+        width: 30%;
+        right: 5%;
+        height: 75vh;
+        background-color: grey;
+    }
+    .gm-fullscreen-control {
+      display: none;
+    }
+    #col2{
+        display: none;
+    }
+    #con_info div div h1{
+        margin-bottom: 20px;
+    }
+    #con_info div div h3 {
+        /* display: flex; */
+        font-size: 20px;
+
+    }
+    /* #con_fb, #con_insta,#con_mail,#con_call{
+        margin-top :0px;
+
+
+    } */
+    #con_info div div h3 i {
+        margin-left: 5%;
+    }
+    #con_info div div h3 .fa-facebook-f {
+        margin-left: 7%;
+    }
+    #con_call{
+        position: absolute;
+        width: 30%;
+        top:16vh;
+        right: 10vw;
+    }
+    .shift {
+        margin: 0;
+        font-size: 15px;
+    }
+    .numb {
+        position: absolute;
+        right: 10vw;
+        top:35vh;
+    }
+    #mail_id {
+        position: absolute;
+        top :65vh;
+        left: 17vw;
+    }
+    #madeBy {
+        text-transform: uppercase;
+        margin-bottom: 3vh;
+        font-size: 13px;
+    }
+
 }
