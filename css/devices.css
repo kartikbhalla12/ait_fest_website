@@ -299,7 +299,7 @@
         margin-left: 8%;
     }
 }
-@media screen and (max-width: 1300px) and (min-width:901px) and (orientation: portrait) {
+@media screen and (max-width: 1300px) and (min-width: 901px) and (orientation: landscape) {
     .width {
         width: 40%;
     }
@@ -326,7 +326,7 @@
     }
 
 }
-@media screen and (max-width: 1500px) and (min-width:1301px) and (orientation: portrait) {
+@media screen and (max-width: 1500px) and (min-width:1301px) and (orientation: landscape) {
     .width {
         width: 30%;
     }
