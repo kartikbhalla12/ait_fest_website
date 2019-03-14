@@ -483,8 +483,135 @@
     }
     #mail_id {
         position: absolute;
-        top :67vh;
+        top :60vh;
         left: 16vw;
+    }
+    #madeBy {
+        text-transform: uppercase;
+        /* margin-bottom: 5px; */
+        font-size: 13px;
+    }
+
+}
+@media (max-height: 450px) and (max-width: 1000px) and (min-height: 301px) and (min-width: 601px) and (orientation: landscape)
+{
+    body {
+        overflow-x: visible;
+    }
+    #icons-perma .fa-2x{
+        font-size: 1.5em;
+    }
+    .width {
+        width: 35%;
+    }
+    .sidenav .inner {
+        width: 50%;
+        margin-left: 20%;
+        margin-top: 38vh;
+        font-size: 19px;
+        font-weight:900;
+        line-height: 1.9;
+        transform: translateY(-50%);
+        position: absolute;
+    }
+    .icons {
+        bottom: 20px;
+    }
+    .icons i .fa-2x {
+        font-size: 1.5em;
+    }
+    .subnav {
+        width: 100vw;
+        height : 45px;
+        top: 0;
+        padding:8px 5px 5px 5px;
+    }
+    #logo {
+        margin: 2px 0 0 15px;
+        font-size: 15px;
+    }
+    .fa-bars{
+        font-size: 1.5em;
+    }
+    .fa-times{
+        font-size: 1.5em;
+    }
+    .dotstyle ul {
+        display: none;
+    }
+    .nav_but {
+        display: none;
+    }
+    #loc_info {
+        position: absolute;
+        top: 13%;
+        left: 4%;
+        text-align: center;
+    }
+    .big {
+        font-size: 47px;
+        margin-bottom: 30px;
+    }
+    #loc_info h3 {
+        font-size: 23px;
+    }
+    .loc_text {
+        font-size: 19px;
+        padding: 10px 0px 10px 55px;
+    }
+    #map {
+        top: 65px;
+        width: 50%;
+        right: 3%;
+        height: 80vh;
+        background-color: grey;
+    }
+    /* .gm-fullscreen-control {
+      display: none;
+    } */
+    /* #col2{
+        display: none;
+    } */
+    #con_info div div h1{
+        margin-bottom: 25px;
+    }
+    #con_info div div h3 {
+        /* display: flex; */
+        font-size: 20px;
+
+    }
+    /* #con_fb, #con_insta,#con_mail,#con_call{
+        margin-top :0px;
+
+
+    } */
+    #con_info div div h3 i {
+        margin-left: 5%;
+    }
+    #con_info div div h3 .fa-facebook-f {
+        margin-left: 7%;
+    }
+    #sitemap li a {
+        font-size: 20px;
+    }
+    /* #con_call{
+        position: absolute;
+        width: 30%;
+        top:16vh;
+        right: 10vw;
+    } */
+    .shift {
+        margin: 0;
+        font-size: 17px;
+    }
+    .numb {
+        margin-top: -10px;
+    }
+    #mail_id {
+        position: absolute;
+        top :37.5vh;
+        left: 17vw;
+        font-size: 18px;
     }
     #madeBy {
         text-transform: uppercase;
