@@ -82,7 +82,16 @@
         height: 40px;
         line-height: 3.8;
      }
-
+     .sidenav .inner {
+         width: 50%;
+         margin-left: 20%;
+         margin-top: 38vh;
+         font-size: 22px;
+         font-weight:900;
+         line-height: 1.9;
+         transform: translateY(-50%);
+         position: absolute;
+     }
      #icons-perma {
          bottom: 2%;
      }
