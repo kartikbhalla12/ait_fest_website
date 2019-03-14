@@ -123,8 +123,11 @@
      #col2 {
          display: none;
      }
+     #con_info div div{
+         font-size: 18px;
+     }
      #con_info div div h3 {
-         font-size: 25px;
+         font-size: 21px;
      }
 
      #con_info div div h3 i{
