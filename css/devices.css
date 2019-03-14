@@ -176,7 +176,7 @@
      #loc_info {
          position: absolute;
          top: 8%;
-         left: 17%;
+         left: 13%;
          text-align: center;
      }
      .big {
@@ -333,7 +333,7 @@
 
 }
 
-@media screen and (max-height: 600px){
+@media screen and (max-height: 600px) and (orientation: portrait){
     #map {
         height: 26vh;
     }
@@ -423,7 +423,7 @@
     #loc_info {
         position: absolute;
         top: 7%;
-        left: 4%;
+        left: 2%;
         text-align: center;
     }
     .big {
@@ -435,7 +435,7 @@
     }
     .loc_text {
         font-size: 15px;
-        padding: 10px 0px 10px 55px;
+        padding: 10px 0px 10px 0px;
     }
     #map {
         top: 65px;
@@ -547,20 +547,20 @@
     }
     #loc_info {
         position: absolute;
-        top: 13%;
-        left: 4%;
+        top: 8%;
+        left: 2%;
         text-align: center;
     }
     .big {
         font-size: 47px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
     #loc_info h3 {
-        font-size: 23px;
+        font-size: 20px;
     }
     .loc_text {
-        font-size: 19px;
-        padding: 10px 0px 10px 55px;
+        font-size: 17px;
+        padding: 10px 0px 10px 0px;
     }
     #map {
         top: 65px;
@@ -575,8 +575,11 @@
     /* #col2{
         display: none;
     } */
+    #con_info {
+        padding-top: 5vh;
+    }
     #con_info div div h1{
-        margin-bottom: 25px;
+        margin-bottom: 15px;
     }
     #con_info div div h3 {
         /* display: flex; */
@@ -594,8 +597,11 @@
     #con_info div div h3 .fa-facebook-f {
         margin-left: 7%;
     }
+    #sitemap li {
+        padding-bottom: 2px;
+    }
     #sitemap li a {
-        font-size: 20px;
+        font-size: 18px;
     }
     /* #con_call{
         position: absolute;
@@ -608,12 +614,12 @@
         font-size: 17px;
     }
     .numb {
-        margin-top: -10px;
+        margin-top: -20px;
     }
     #mail_id {
         position: absolute;
-        top :35.5vh;
-        left: 17vw;
+        top :42vh;
+        left: 22vw;
         font-size: 18px;
     }
     #madeBy {
