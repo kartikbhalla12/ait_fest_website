@@ -573,3 +573,6 @@ a.back-to-top:hover, a.back-to-top:focus {
   font-weight: 700;
   font-family: cursive;
 }
+.services-item {
+  margin-bottom: 20px;
+}
