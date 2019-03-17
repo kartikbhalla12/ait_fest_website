@@ -78,7 +78,12 @@
          margin-left: 5%;
          font-size: 20px;
      }
-}
+}        #event_info .big {
+         margin-bottom: 1vh;
+     }
+     #event_info div {
+         margin-top: 0px;
+     }
 
 
 @media screen and (max-width: 400px) and (min-width: 341px) and (orientation: portrait) {
@@ -163,6 +168,55 @@
      .shift {
          margin-left: 8%;
      }
+     #event_info {
+         font-size: 15px;
+         padding-top: 2vh;
+     }
+     #event_info .row{
+         display: block;
+         float: left;
+         margin: 0;
+
+     }
+     #event_info .big {
+         margin-bottom: 1vh;
+     }
+     #event_info div {
+         margin-top: 0px;
+     }
+     #event_info div div {
+         font-size: 16px;
+         height: 29vh;
+         max-width: 95vw;
+         margin: 3vh 2.8vw;
+         border-radius: 10px;
+     }
+     #event_info div div h1 {
+         font-size: 22px;
+         padding-top: 1vh;
+         padding-bottom: 0.2vh;
+     }
+     #col1_event {
+         margin-left: 3.5vw;
+         margin-right: 1vw;
+     }
+     #col2_event {
+         margin-right: 3.5vw;
+         margin-left: 1vw;
+     }
+     #event_info .container {
+         max-width: 95vw;
+     }
+     #event_info div div img {
+         max-width: 6vw;
+         float: left;
+     }
+     #event_info div div button {
+         font-size: 11px;
+         text-transform: uppercase;
+         padding: 4px;
+         margin:3px auto;
+     }
 }
 
 @media screen and (max-width: 600px)  and (min-width:401px) and (orientation: portrait) {
@@ -228,6 +282,49 @@
      .shift {
          margin-left: 8%;
      }
+     #event_info {
+         font-size: 15px;
+         padding-top: 2vh;
+     }
+     #event_info .row{
+         display: block;
+         float: left;
+         margin: 0;
+
+     }
+     #event_info div div {
+         font-size: 16px;
+         height: 29vh;
+         max-width: 95vw;
+         margin: 3vh 2.8vw;
+         border-radius: 10px;
+     }
+     #event_info div div h1 {
+         font-size: 22px;
+         padding-top: 1vh;
+         padding-bottom: 0.2vh;
+     }
+     #col1_event {
+         margin-left: 3.5vw;
+         margin-right: 1vw;
+     }
+     #col2_event {
+         margin-right: 3.5vw;
+         margin-left: 1vw;
+     }
+     #event_info .container {
+         max-width: 95vw;
+     }
+     #event_info div div img {
+         max-width: 6vw;
+         float: left;
+     }
+     #event_info div div button {
+         font-size: 13px;
+         text-transform: uppercase;
+         padding: 5px;
+         margin:3px auto;
+     }
 }
 @media screen and (max-width: 750px) and (min-width:601px) and (orientation: portrait) {
     .width {
@@ -278,6 +375,49 @@
     .shift {
         margin-left: 8%;
     }
+    #event_info {
+        font-size: 17px;
+        padding-top: 8vh;
+    }
+    #event_info .row{
+        display: block;
+        float: left;
+        margin: 0;
+
+    }
+    #event_info div div {
+        font-size: 18px;
+        height: 28vh;
+        max-width: 95vw;
+        margin: 3vh 2.8vw;
+        border-radius: 10px;
+    }
+    #event_info div div h1 {
+        font-size: 22px;
+        padding-top: 1vh;
+        padding-bottom: .7vh;
+    }
+    #col1_event {
+        margin-left: 3.5vw;
+        margin-right: 1vw;
+    }
+    #col2_event {
+        margin-right: 3.5vw;
+        margin-left: 1vw;
+    }
+    #event_info .container {
+        max-width: 95vw;
+    }
+    #event_info div div img {
+        margin-top: .5vh;
+        max-width: 7vw;
+    }
+    #event_info div div button {
+        font-size: 13px;
+        text-transform: uppercase;
+        padding: 6px;
+        margin:6px auto;
+    }
 }
 @media screen and (max-width: 900px) and (min-width:751px) and (orientation: portrait) {
     .width {
@@ -322,6 +462,26 @@
     .shift {
         margin-left: 8%;
     }
+    #event_info div div {
+        font-size: 18px;
+    }
+    #event_info div div h1 {
+        font-size: 30px;
+    }
+    #col1_event {
+        margin-left: 5vw;
+        margin-right: 1.5vw;
+    }
+    #col2_event {
+        margin-right: 5vw;
+        margin-left: 1.5vw;
+    }
+    #event_info .container {
+        max-width: 95vw;
+    }
+    #event_info div div img {
+        max-width: 6vw;
+    }
 }
 @media screen and (max-width: 1300px) and (min-width: 901px) and (orientation: landscape) {
     .width {
@@ -348,11 +508,35 @@
     #con_info {
         max-width: 900px;
     }
+    #event_info div div {
+        font-size: 18px;
+    }
+    #event_info div div h1 {
+        font-size: 30px;
+    }
+    #col1_event {
+        margin-left: 5vw;
+        margin-right: 1.5vw;
+    }
+    #col2_event {
+        margin-right: 5vw;
+        margin-left: 1.5vw;
+    }
+    #event_info .container {
+        max-width: 90vw;
+    }
+    #event_info div div img {
+        max-width: 6vw;
+    }
+
 
 }
 @media screen and (max-width: 1500px) and (min-width:1301px) and (orientation: landscape) {
     .width {
         width: 30%;
+    }
+    #event_info div div img {
+        max-width: 6vw;
     }
 
 }
@@ -372,6 +556,28 @@
         padding: 0vh;
         height: 5vh;
     }
+    #event_info {
+        font-size: 13px;
+        padding-top: 2vh;
+    }
+    #event_info div div {
+        font-size: 13px;
+        height: 27vh;
+    }
+    #event_info div div h1 {
+        font-size: 17px;
+        padding-top: .5vh;
+        padding-bottom: 0vh;
+    }
+    #event_info .container {
+        max-width: 98vw;
+    }
+    #event_info div div button {
+        font-size: 13px;
+        padding: 2px;
+        margin:2px auto;
+    }
+
 }
 
 @media screen and (max-height: 700px) and (min-height: 601px) and (orientation: portrait) {
@@ -384,6 +590,29 @@
     #madeBy {
         padding: 0vh;
     }
+    #event_info {
+        font-size: 13px;
+        padding-top: 5vh;
+    }
+
+    #event_info div div {
+        font-size: 14px;
+        height: 28.5vh;
+    }
+    #event_info div div h1 {
+        font-size: 17px;
+        padding-top: .5vh;
+        padding-bottom: .5vh;
+    }
+    #event_info .container {
+        max-width: 98vw;
+    }
+    #event_info div div button {
+        font-size: 13px;
+        padding: 2px;
+        margin:2px auto;
+    }
+
 }
 
 @media screen and (max-height: 800px) and (min-height: 701px) and (orientation: portrait){
