@@ -575,7 +575,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 .about{
   color: rgb(0,0,0);
-  font-size: 100px;
+  font-size: 70%;
   letter-spacing: 10px;
   text-transform: uppercase;
   font-weight: 2000;
