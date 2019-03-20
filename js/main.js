@@ -116,7 +116,7 @@ var rint = 50;
 
 $(document).ready(function(){
   WIDTH = window.innerWidth;
-  HEIGHT = window.innerHeight - 0.2*window.innerHeight;
+  HEIGHT = window.innerHeight;
 	$('#container').width(WIDTH).height(HEIGHT);
 	canvas = document.getElementById('pixie');
 	$(canvas).attr('width', WIDTH).attr('height',HEIGHT);
