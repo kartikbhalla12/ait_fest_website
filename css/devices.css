@@ -84,6 +84,17 @@
      #event_info div {
          margin-top: 0px;
      }
+     #about_info {
+         padding-top: 1vh;
+     }
+     #about_info iframe {
+         width: 95vw;
+         height: 25vh;
+     }
+     #about_info .container {
+          font-size: 14px;
+      }
+
 }
 
 
@@ -218,6 +229,16 @@
          padding: 4px;
          margin:3px auto;
      }
+     #about_info {
+         padding-top: 3vh;
+     }
+     #about_info iframe {
+         width: 95vw;
+         height: 25vh;
+     }
+     #about_info .container {
+          font-size: 16px;
+      }
 }
 
 @media screen and (max-width: 600px)  and (min-width:401px) and (orientation: portrait) {
@@ -326,6 +347,16 @@
          padding: 5px;
          margin:3px auto;
      }
+     #about_info {
+         padding-top: 4vh;
+     }
+     #about_info iframe {
+         width: 95vw;
+         height: 33vh;
+     }
+     #about_info .container {
+          font-size: 16px;
+      }
 }
 @media screen and (max-width: 750px) and (min-width:601px) and (orientation: portrait) {
     .width {
@@ -419,6 +450,16 @@
         padding: 6px;
         margin:6px auto;
     }
+    #about_info {
+        padding-top: 4vh;
+    }
+    #about_info iframe {
+        width: 95vw;
+        height: 45vh;
+    }
+    #about_info .container {
+         font-size: 17px;
+     }
 }
 @media screen and (max-width: 900px) and (min-width:751px) and (orientation: portrait) {
     .width {
@@ -483,6 +524,11 @@
     #event_info div div img {
         max-width: 6vw;
     }
+    #about_info iframe {
+        width: 85vw;
+        height:40vh;
+    }
+
 }
 @media screen and (max-width: 1300px) and (min-width: 901px) and (orientation: landscape) {
     .width {
@@ -529,6 +575,10 @@
     #event_info div div img {
         max-width: 6vw;
     }
+    #about_info iframe {
+        width: 65vw;
+        height: 50vh;
+    }
 
 
 }
@@ -538,6 +588,10 @@
     }
     #event_info div div img {
         max-width: 6vw;
+    }
+    #about_info iframe {
+        width: 65vw;
+        height: 50vh;
     }
 
 }
