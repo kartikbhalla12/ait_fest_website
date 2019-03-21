@@ -186,3 +186,19 @@ function Circle() {
 	this.getX = function() { return this.x; }
 	this.getY = function() { return this.y; }
 }
+
+$(() => {
+
+    let developerName = ['BHALLA', 'CHINMAY', 'JASPREET'];
+    var i = 0;
+    $('#developerName').text(developerName[i]);
+    i++
+
+    setInterval(() => {
+        $('#developerName').text(developerName[i]);
+        i++;
+        if(i==3) {
+            i = 0;
+        }
+    },2000)
+})
