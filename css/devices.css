@@ -95,8 +95,8 @@
          margin-top: 0px;
      }
      #event_info div div {
-         font-size: 16px;
-         height: 29vh;
+         font-size: 12.5px !important;
+         height: 35vh !important;
          max-width: 95vw;
          margin: 3vh 2.8vw;
          border-radius: 10px;
@@ -225,7 +225,7 @@
      }
      #event_info {
          font-size: 15px;
-         padding-top: 2vh;
+         padding-top: 7vh;
      }
      #event_info .row{
          display: block;
@@ -240,8 +240,8 @@
          margin-top: 0px;
      }
      #event_info div div {
-         font-size: 16px;
-         height: 29vh;
+         font-size: 17px;
+         height: 34vh;
          max-width: 95vw;
          margin: 3vh 2.8vw;
          border-radius: 10px;
@@ -267,10 +267,10 @@
          float: left;
      }
      #event_info div div button {
-         font-size: 11px;
+         font-size: 13px;
          text-transform: uppercase;
-         padding: 4px;
-         margin:3px auto;
+         padding: 5px;
+         margin:5px auto;
      }
      #about_info {
          padding-top: 3vh;
@@ -358,7 +358,7 @@
 
      }
      #event_info div div {
-         font-size: 16px;
+         font-size: 14px;
          height: 29vh;
          max-width: 95vw;
          margin: 3vh 2.8vw;
@@ -655,24 +655,52 @@
         height: 5vh;
     }
     #event_info {
-        font-size: 13px;
-        padding-top: 2vh;
+        font-size: 15px;
+        padding-top: 1vh;
+    }
+    #event_info .row{
+        display: block;
+        float: left;
+        margin: 0;
+
+    }
+    #event_info .big {
+        margin-bottom: 1vh;
+    }
+    #event_info div {
+        margin-top: 0px;
     }
     #event_info div div {
-        font-size: 13px;
-        height: 35vh;
+        font-size: 12.5px;
+        height: 34.5vh;
+        max-width: 95vw;
+        margin: 3vh 2.8vw;
+        border-radius: 5px;
     }
     #event_info div div h1 {
-        font-size: 17px;
-        padding-top: .5vh;
-        padding-bottom: 0vh;
+        font-size: 22px;
+        padding-top: 1vh;
+        padding-bottom: 0.2vh;
+    }
+    #col1_event {
+        margin-left: 3.5vw;
+        margin-right: 1vw;
+    }
+    #col2_event {
+        margin-right: 3.5vw;
+        margin-left: 1vw;
     }
     #event_info .container {
-        max-width: 98vw;
+        max-width: 95vw;
+    }
+    #event_info div div img {
+        max-width: 6vw;
+        float: left;
     }
     #event_info div div button {
-        font-size: 13px;
-        padding: 2px;
+        font-size: 10px;
+        text-transform: uppercase;
+        padding: 4px;
         margin:2px auto;
     }
 
@@ -722,6 +750,55 @@
     }
     #madeBy {
         padding: 0vh;
+    }
+    #event_info {
+        font-size: 15px;
+        padding-top: 8vh;
+    }
+    #event_info .row{
+        display: block;
+        float: left;
+        margin: 0;
+
+    }
+    #event_info .big {
+        margin-bottom: 1vh;
+    }
+    #event_info div {
+        margin-top: 0px;
+    }
+    #event_info div div {
+        font-size: 16px;
+        height: 35vh;
+        max-width: 95vw;
+        margin: 3vh 2.8vw;
+        border-radius: 10px;
+    }
+    #event_info div div h1 {
+        font-size: 22px;
+        padding-top: 1vh;
+        padding-bottom: 0.2vh;
+    }
+    #col1_event {
+        margin-left: 3.5vw;
+        margin-right: 1vw;
+    }
+    #col2_event {
+        margin-right: 3.5vw;
+        margin-left: 1vw;
+    }
+    #event_info .container {
+        max-width: 95vw;
+    }
+    #event_info div div img {
+        max-width: 6vw;
+        float: left;
+    }
+    #event_info div div button {
+        font-size: 11px;
+        text-transform: uppercase;
+        padding: 5px;
+        margin:4px auto;
     }
 }
 
