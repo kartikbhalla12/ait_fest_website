@@ -260,7 +260,7 @@ i {
 #locate_us {
     position: relative;
     background-color: #7a7adb;
-background-image: linear-gradient(315deg, #7a7adb 0%, #170e13 74%);
+background-image: linear-gradient(315deg, #7a7adb 0%, #170e13 98%);
 
     height: 100vh;
 }
