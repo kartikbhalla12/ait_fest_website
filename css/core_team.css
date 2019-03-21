@@ -1,0 +1,111 @@
+
+body {
+
+
+background: rgb(0,0,0);
+
+
+}
+
+.container-fluid {
+    padding-top: 15vh;
+    margin: 0 auto;
+    min-height:100vh;
+    text-align: center;
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.co-box {
+
+    display: block;
+    margin: 30px 20px;
+    height: 330px;
+    width: 200px;
+    /* max-width: 25vw; */
+    background: rgba(255,255,255,0);
+    color: rgb(255,0,0);
+    text-align: center;
+}
+.team_img {
+    display: block;
+    max-width: 180px;
+    margin:5vh auto;
+    border-radius: 100%;
+    
+}
+
+h2{
+    font-family: cursive;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-bottom: 1vh;
+    color: white;
+}
+ h1 {
+     text-transform: uppercase;
+     font-weight: 1000;
+     font-size:50px;
+     color: white;
+     padding-bottom: 10vh;
+     font-size: 70px;
+     letter-spacing: 10px;
+     font-family: Brush Script MT, cursive;
+ }
+ h3{
+     text-transform: uppercase;
+     font-weight: 500;
+     font-size: 16px;
+     padding-bottom: 1vh;
+     font-style: oblique;
+     color: white;
+ }
+p {
+    /* text-transform: uppercase; */
+    font-size: 18px;
+    font-weight: 500;
+    color:rgba(255, 255, 255, 0.7);
+    font-style: italic;
+}
+.ico i{
+    /* display: block; */
+    float: none;
+    margin: 5px;
+    width:45px;
+    height:45px;
+    color:#000;
+    background-color: rgba(255,255,255,0.2);
+    padding: 10px 10px;
+    border-radius: 100%;
+    font-size: 1.5em;
+
+}
+.ico {
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 440px) {
+    h1 {
+        font-size:40px;
+        padding-bottom: 5vh;
+    }
+    .container-fluid {
+        padding-top: 10vh;
+
+    }
+
+}
+@media screen and (max-width: 800px) {
+    h1 {
+        padding-bottom: 5vh;
+    }
+    .container-fluid {
+        padding-top: 10vh;
+
+    }
+
+}
