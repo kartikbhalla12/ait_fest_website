@@ -128,14 +128,14 @@
          margin:3px auto;
      }
      #about_info {
-         padding-top: 1vh;
+         padding-top: 12vh;
      }
      #about_info iframe {
          width: 95vw;
          height: 32vh;
      }
      #about_info .container {
-          font-size: 13px;
+          font-size: 17px;
       }
 
 }
@@ -273,14 +273,14 @@
          margin:5px auto;
      }
      #about_info {
-         padding-top: 3vh;
+         padding-top: 10vh;
      }
      #about_info iframe {
          width: 95vw;
          height: 35vh;
      }
      #about_info .container {
-          font-size: 13px;
+          font-size: 19px;
       }
 }
 
@@ -391,14 +391,14 @@
          margin:3px auto;
      }
      #about_info {
-         padding-top: 4vh;
+         padding-top: 14vh;
      }
      #about_info iframe {
          width: 95vw;
          height: 33vh;
      }
      #about_info .container {
-          font-size: 16px;
+          font-size: 20px;
       }
 }
 @media screen and (max-width: 750px) and (min-width:601px) and (orientation: portrait) {
@@ -494,14 +494,14 @@
         margin:6px auto;
     }
     #about_info {
-        padding-top: 4vh;
+        padding-top: 10vh;
     }
     #about_info iframe {
         width: 95vw;
         height: 45vh;
     }
     #about_info .container {
-         font-size: 17px;
+         font-size: 20px;
      }
 }
 @media screen and (max-width: 900px) and (min-width:751px) and (orientation: portrait) {
@@ -619,8 +619,8 @@
         max-width: 6vw;
     }
     #about_info iframe {
-        width: 65vw;
-        height: 50vh;
+        width: 75vw;
+        height: 60vh;
     }
 
 
@@ -633,8 +633,8 @@
         max-width: 6vw;
     }
     #about_info iframe {
-        width: 65vw;
-        height: 50vh;
+        width: 75vw;
+        height: 65vh;
     }
 
 }
