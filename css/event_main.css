@@ -284,11 +284,21 @@ a.back-to-top:hover, a.back-to-top:focus {
 /* ==========================================================================
 3. Hero Area
 ========================================================================== */
-.hero-area-bg {
-  background: url(https://scontent.fdel9-1.fna.fbcdn.net/v/t1.0-9/27972116_1393966894048331_3899975672035908067_n.jpg?_nc_cat=102&_nc_ht=scontent.fdel9-1.fna&oh=45a709ba2e0955878b96f09821691530&oe=5D1AD343) no-repeat;
+.hero-area-bg-con {
+  background: url(../image/con_bg.png) no-repeat;
   background-size: cover;
+  position: relative;
 }
-
+.hero-area-bg-pro {
+  background: url(../image/pro_bg.png) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.logo_width {
+    max-width: 60vw;
+    display: block;
+    margin: 0 auto;
+}
 #hero-area {
   color: #fff;
   overflow: hidden;
@@ -302,7 +312,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   top: 0px;
   left: 0px;
   background: #0c0808;
-  opacity: 0.8;
+  opacity: 0.4;
 }
 
 #hero-area .contents {
