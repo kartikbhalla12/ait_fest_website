@@ -972,7 +972,16 @@
         padding:2px;
         margin:1px auto;
     }
-
+    #about_info {
+        padding-top: 2vh;
+    }
+    #about_info iframe {
+        width: 65vw;
+        height: 50vh;
+    }
+    #about_info .container {
+         font-size: 14px;
+     }
 }
 @media screen and (max-height: 450px) and (max-width: 1000px) and (min-height: 326px) and (min-width: 601px) and (orientation: landscape)
 {
@@ -1155,5 +1164,14 @@
         padding: 4px;
         margin:2px auto;
     }
-
+    #about_info {
+        padding-top: 4vh;
+    }
+    #about_info iframe {
+        width: 45vw;
+        height: 50vh;
+    }
+    #about_info .container {
+         font-size: 15px;
+     }
 }
