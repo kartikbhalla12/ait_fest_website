@@ -1,0 +1,41 @@
+body {
+    background-color: #4c4177;
+background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+
+
+
+
+}
+
+.container {
+    max-width: 50vw;
+    padding-top: 15vh;
+    margin: 0 auto;
+    min-height:100vh;
+    text-align: center;
+}
+.row {
+    margin: 2vh 0;
+    text-align: center;
+}
+ h1 {
+     font-family: 'Oswald', sans-serif;
+     text-transform: uppercase;
+     font-weight: 500;
+     font-size:50px;
+     padding-bottom: 10vh;
+ }
+
+label {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 100%;
+}
+
+@media screen and (max-width: 1300px) {
+    .container {
+        max-width: 90vw;
+    }
