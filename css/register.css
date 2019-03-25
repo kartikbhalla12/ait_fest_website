@@ -35,6 +35,9 @@ label {
     width: 100%;
 }
 
+form {
+    padding-bottom: 10vh;
+}
 @media screen and (max-width: 1300px) {
     .container {
         max-width: 90vw;
