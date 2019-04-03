@@ -586,3 +586,80 @@ a.back-to-top:hover, a.back-to-top:focus {
 .services-item {
   margin-bottom: 20px;
 }
+
+i:hover{
+    cursor: pointer;
+}
+/* side navigation menu */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right:0;
+  background: linear-gradient(45deg,#ff7300,#f8348c); /* Black*/
+  overflow-x: hidden;
+  padding-top: 20px;
+  transition: 0.15s;
+}
+.sidenav .inner {
+    width: 80%;
+    text-transform :uppercase;
+    font-family: 'Lato', sans-serif;
+    margin-left: 20%;
+    margin-top: 40vh;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1.9;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+.sidenav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+
+}
+
+.subnav {
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    height : 60px;
+    top: 0;
+    padding: 10px 5px 10px 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#logo {
+    position: absolute;
+    margin: 10px 0 15px 15px;
+}
+#main_logo{
+    max-width: 70%;
+}
+.subnav button,.subnav i {
+    float:right;
+    margin-right: 30px;
+    color: #fff;
+}
+.subnav i {
+    padding-top: 4px;
+}
+.closenav {
+    color:#fff;
+    /* padding-top: 15px;
+    padding-right: 15px; */
+}
+i {
+    float:right;
+    margin-right: 30px;
+    color: #fff;
+}
