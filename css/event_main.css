@@ -663,3 +663,12 @@ i {
     margin-right: 30px;
     color: #fff;
 }
+
+#logo {
+    position: absolute;
+    margin: 10px 0 15px 15px;
+}
+#logo a {
+    text-decoration: none;
+    color: #fff;
+}

@@ -490,3 +490,8 @@ background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
     padding-top: 10vh;
     font-size: 30px;
 }
+
+#logo a {
+    text-decoration: none;
+    color: #fff;
+}
