@@ -475,7 +475,7 @@ background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
  }
 #about_info iframe {
     width: 58vw;
-    height: 59vh;
+    height: 55vh;
     margin-top: 3vh;
     /* pointer-events: none; */
 
