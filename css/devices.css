@@ -142,7 +142,7 @@
         left: 50%;
         -webkit-transform: translateX(-50%);
         transform: translateX(-50%);
-        top: 70%;
+        top: 60%;
         margin: 0;
         display: flex;
       }
@@ -166,6 +166,10 @@
         position:relative;
         right: 0px;
         top: 20px;
+      }
+      .subhead {
+          top: 30%;
+          transform: translateY(-30%);
       }
 
 }
