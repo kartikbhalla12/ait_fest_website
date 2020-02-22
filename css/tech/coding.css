@@ -1,0 +1,86 @@
+body {
+  /* background-color: #fc9842;
+  background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%); */
+  background-color: #000000;
+background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+
+
+}
+
+.container-fluid {
+    padding-top: 15vh;
+    margin: 0 auto;
+    min-height:100vh;
+    text-align: center;
+}
+
+.container-fluid img {
+  width: 80vw;
+}
+
+.container-fluid h1{
+  font-size: 70px;
+  font-family: 'Odibee Sans', cursive;
+}
+
+.box {
+  margin-top: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.box a {
+  text-decoration: none;
+}
+.co-box {
+
+    display: block;
+    margin: 20px 10px;
+    height: 400px;
+    width: 350px;
+    /* max-width: 25vw; */
+    background: rgba(255,255,255,0.2);
+    color: #fff;
+    text-align: center;
+}
+
+.co-box h1{
+    font-size: 40px;
+    font-family: 'Odibee Sans', cursive;
+    text-transform: uppercase;
+    padding: 30px 0 20px 0;
+}
+.co-box p{
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.co-box img{
+  width: inherit;
+  -webkit-user-drag: none;
+-khtml-user-drag: none;
+-moz-user-drag: none;
+-o-user-drag: none;
+user-drag: none;
+  /* padding: 10px; */
+}
+
+#blind_coding {
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/coding.jpg);
+}
+#competetive_coding {
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/compete.jpeg);
+}
+#written_algo {
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/written.jpg);
+}
+
+
+.modal-content {
+  background-color: #f1dfd1;
+background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
+}
+.modal {
+  color: #000;
+}
