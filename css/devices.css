@@ -137,6 +137,36 @@
      #about_info .container {
           font-size: 17px;
       }
+      #time_left {
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        top: 70%;
+        margin: 0;
+        display: flex;
+      }
+      #time_left div{
+
+        float: left;
+        margin: 10px;
+        width: 60px;
+        height: 60px;
+        font-size: 20px;
+        font-family: 'Odibee Sans', cursive;
+        text-align: center;
+        border: 3px #fff solid;
+        border-radius: 100%;
+        padding: 15px 0;
+      }
+
+      #time_left div p{
+        font-size: 20px;
+        text-align: center;
+        position:relative;
+        right: 0px;
+        top: 20px;
+      }
 
 }
 
@@ -338,12 +368,21 @@
      #about_info .container {
           font-size: 19px;
       }
-      #time_left {
+      /* #time_left {
         position: absolute;
         margin-left: 0;
         left: 2%;
         -webkit-transform: translateX(5%);
         top: 70%;
+      } */
+      #time_left {
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        top: 70%;
+        margin: 0;
+        display: flex;
       }
       #time_left div{
 
@@ -532,10 +571,12 @@
       }
       #time_left {
         position: absolute;
-        margin-left: 0;
-        left: 5%;
-        -webkit-transform: translateX(5%);
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
         top: 70%;
+        margin: 0;
+        display: flex;
       }
       #time_left div{
 
@@ -709,8 +750,12 @@
 
      #time_left {
        position: absolute;
-       left: 15%;
+       left: 50%;
+       -webkit-transform: translateX(-50%);
+       transform: translateX(-50%);
        top: 75%;
+       margin: 0;
+       display: flex;
      }
      #time_left div{
 
@@ -855,10 +900,12 @@
     }
     #time_left {
       position: absolute;
-      left: 45%;
+      left: 50%;
       -webkit-transform: translateX(-50%);
       transform: translateX(-50%);
       top: 80%;
+      margin: 0;
+      display: flex;
     }
     #time_left div{
             float: left;
@@ -934,10 +981,12 @@
 
     #time_left {
       position: absolute;
-      left: 45%;
+      left: 50%;
       -webkit-transform: translateX(-50%);
       transform: translateX(-50%);
       top: 80%;
+      margin: 0;
+      display: flex;
     }
     #time_left div{
             float: left;
