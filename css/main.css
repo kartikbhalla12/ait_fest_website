@@ -367,6 +367,11 @@ background-image: linear-gradient(315deg, #7a7adb 0%, #170e13 98%);
     margin-left: 9%;
 }
 
+.numb a{
+  text-decoration: none;
+  color: #fff;
+}
+
 #madeBy {
     background: #000000;
     height: 12vh;
