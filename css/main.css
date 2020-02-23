@@ -265,8 +265,14 @@ i {
 
 #locate_us {
     position: relative;
-    background-color: #7a7adb;
-background-image: linear-gradient(315deg, #7a7adb 0%, #170e13 98%);
+    /* background-color: #7a7adb;
+background-image: linear-gradient(315deg, #7a7adb 0%, #170e13 98%); */
+background-color: #42378f;
+background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
+
+
+
+
 
     height: 100vh;
 }
@@ -410,7 +416,7 @@ background-image: linear-gradient(315deg, #ee8e6b 0%, #ef6da0 74%);
     max-width: 31vw;
     height: 50vh;
     box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
-    border-radius: 30px;
+    border-radius: 5px;
     color: #000;
     font-size: 19px;
     font-family: 'Roboto Condensed', sans-serif;
