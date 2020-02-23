@@ -1,8 +1,9 @@
 body {
   /* background-color: #fc9842;
   background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%); */
-  background-color: #29539b;
-  background-image: linear-gradient(315deg, #29539b 0%, #1e3b70 74%);
+  background-color: #e0455f;
+  background-image: linear-gradient(147deg, #e0455f 0%, #44000b 74%);
+
 
 
 }
@@ -67,14 +68,14 @@ user-drag: none;
   /* padding: 10px; */
 }
 
-#blind_coding {
-  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/coding.jpg);
+#roboWar {
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/robowar.jpg);
 }
-#competetive_coding {
-  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/compete.jpeg);
+#roboRace {
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/roborace.jpg);
 }
-#written_algo {
-  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/written.jpg);
+#lineRobot {
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/lfr.jpg);
 }
 
 
