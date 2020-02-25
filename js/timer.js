@@ -38,6 +38,5 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = '2020-03-16';
-var deadline = 'March 24 2020 00:00:00 GMT+0530';
+var deadline = 'March 26 2020 00:00:00 GMT+0530';
 initializeClock('time_left', deadline);
