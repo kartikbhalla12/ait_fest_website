@@ -358,6 +358,12 @@ background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
     text-transform: uppercase;
     margin-bottom: 20px;
 }
+
+#con_info div div h3 a{
+text-decoration: none;
+color: #fff;
+
+}
 #con_info div div h3 i{
     float: left;
     margin-left: 40%;
