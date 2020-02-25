@@ -452,7 +452,7 @@ background-image: linear-gradient(315deg, #ee8e6b 0%, #ef6da0 74%);
     font-size: 40px;
     padding-top: 2vh;
     padding-bottom: 2vh;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: 700;
     font-family: 'Oswald', sans-serif;
 }
