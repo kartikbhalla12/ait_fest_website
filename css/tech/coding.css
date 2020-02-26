@@ -1,9 +1,8 @@
 body {
   /* background-color: #fc9842;
   background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%); */
-  background-color: #29539b;
-  background-image: linear-gradient(315deg, #29539b 0%, #1e3b70 74%);
-
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
 
 }
 
@@ -49,7 +48,12 @@ body {
     font-size: 40px;
     font-family: 'Odibee Sans', cursive;
     text-transform: uppercase;
-    padding: 30px 0 20px 0;
+    padding: 15vh 0 0  0;
+}
+.co-box h3{
+    font-size: 30px;
+    font-family: 'Odibee Sans', cursive;
+    text-transform: uppercase;
 }
 .co-box p{
   margin-top: 30px;
@@ -68,13 +72,16 @@ user-drag: none;
 }
 
 #blind_coding {
-  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/coding.jpg);
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/coding/blind_coding.png);
+  background-position: center;
 }
 #competetive_coding {
-  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/compete.jpeg);
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/coding/competetive_coding.jpg);
+  background-position: center;
 }
 #written_algo {
-  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/written.jpg);
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/coding/written_algo.jpeg);
+  background-position: center;
 }
 
 

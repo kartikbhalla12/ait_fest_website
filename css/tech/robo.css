@@ -50,7 +50,12 @@ body {
     font-size: 40px;
     font-family: 'Odibee Sans', cursive;
     text-transform: uppercase;
-    padding: 30px 0 20px 0;
+    padding: 15vh 0 0  0;
+}
+.co-box h3{
+    font-size: 30px;
+    font-family: 'Odibee Sans', cursive;
+    text-transform: uppercase;
 }
 .co-box p{
   margin-top: 30px;
@@ -69,13 +74,16 @@ user-drag: none;
 }
 
 #roboWar {
-  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/robowar.jpg);
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/robo/robowar.jpg);
+  background-position: center;
 }
 #roboRace {
-  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/roborace.jpg);
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/robo/roborace.jpg);
+  background-position: center;
 }
 #lineRobot {
-  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/lfr.jpg);
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/robo/lfr.jpg);
+  background-position: center;
 }
 
 
