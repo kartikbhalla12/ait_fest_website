@@ -34,7 +34,7 @@
          display: none;
      }
      #map {
-         top: 400px;
+         top: 71vh;
          left :2%;
          /* right: 2%; */
          width: 96%;
@@ -44,13 +44,13 @@
 
      #loc_info {
          position: absolute;
-         top: 8%;
+         top: 4%;
          left:6%;
          text-align: center;
      }
      .big {
-         font-size: 50px;
-         margin-bottom: 20px;
+         font-size: 40px;
+         margin-bottom: 15px;
      }
      .loc_text  {
          text-align: left;
@@ -76,7 +76,7 @@
      }
      .shift {
          margin-left: 5%;
-         font-size: 20px;
+         font-size: 15px;
      }
      #event_info {
          font-size: 15px;
@@ -96,9 +96,9 @@
      }
      #event_info div div {
          font-size: 12.5px !important;
-         height: 35vh !important;
+         height: 35vh;
          max-width: 95vw;
-         margin: 3vh 2.8vw;
+         margin: 2vh 2.8vw !important;
          border-radius: 10px;
      }
      #event_info div div h1 {
@@ -109,10 +109,15 @@
      #col1_event {
          margin-left: 3.5vw;
          margin-right: 1vw;
+         max-height: 18vh !important;
      }
      #col2_event {
          margin-right: 3.5vw;
          margin-left: 1vw;
+         max-height: 27vh !important;
+     }
+     #col3_event {
+         max-height: 25vh !important;
      }
      #event_info .container {
          max-width: 95vw;
@@ -170,6 +175,9 @@
       .subhead {
           top: 30%;
           transform: translateY(-30%);
+      }
+      #date {
+        font-size: 20px;
       }
 
 }
@@ -408,6 +416,13 @@
         position:relative;
         right: 0px;
         top: 20px;
+      }
+      .subhead {
+          top: 35%;
+          transform: translateY(-35%);
+      }
+      #date {
+        font-size: 25px;
       }
 }
 
