@@ -73,12 +73,32 @@ user-drag: none;
   /* padding: 10px; */
 }
 
-#throughTheLens {
-  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/photography/online.jpg);
+#pubg {
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/fun/pubg.jpg);
   background-position: center;
 }
-#shutterRelease {
-  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/photography/offline.jpg);
+#friendsQuiz {
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/fun/friends_quiz.jpg);
+  background-position: center;
+}
+#gotQuiz {
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/fun/got_quiz.jpg);
+  background-position: center;
+}
+#marvelQuiz {
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/fun/marvel_dc_quiz.jpg);
+  background-position: center;
+}
+#gkQuiz {
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/fun/gk_quiz.jpg);
+  background-position: center;
+}
+#meme {
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/fun/meme.jpg);
+  background-position: center;
+}
+#standup {
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/fun/standup.jpg);
   background-position: center;
 }
 
