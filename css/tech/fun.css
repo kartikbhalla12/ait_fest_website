@@ -94,7 +94,7 @@ user-drag: none;
   background-position: center;
 }
 #meme {
-  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/fun/meme.jpg);
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../../image/tech/fun/meme.png);
   background-position: center;
 }
 #standup {
