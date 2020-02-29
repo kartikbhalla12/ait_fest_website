@@ -52,7 +52,7 @@ i:hover{
   transition: 0.15s;
 }
 .sidenav .inner {
-    width: 80%;
+    width: 50vw;
     text-transform :uppercase;
     font-family: 'Lato', sans-serif;
     margin-left: 20%;
@@ -118,10 +118,15 @@ i {
     color: #fff;
 }
 .icons {
-    width:60%;
+    width: 100vw;
     position: absolute;
+    left: 20%;
     bottom: 50px;
     padding: 20px;
+}
+.icons a {
+  display: flex;
+ float: left;
 }
 
 #icons-perma {

@@ -12,7 +12,7 @@
         line-height: 3.8;
      }
      .sidenav .inner {
-         width: 50%;
+         width: 50vw;
          margin-left: 20%;
          margin-top: 38vh;
          font-size: 22px;
@@ -204,7 +204,7 @@
         line-height: 3.8;
      }
      .sidenav .inner {
-         width: 50%;
+         width: 50vw;
          margin-left: 20%;
          margin-top: 38vh;
          font-size: 22px;
@@ -1283,7 +1283,7 @@
         width: 40%;
     }
     .sidenav .inner {
-        width: 50%;
+        width: 50vw;
         margin-left: 20%;
         margin-top: 44vh;
         font-size: 17px;
@@ -1464,7 +1464,7 @@
         width: 35%;
     }
     .sidenav .inner {
-        width: 50%;
+        width: 50vw;
         margin-left: 20%;
         margin-top: 38vh;
         font-size: 19px;
