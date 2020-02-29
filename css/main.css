@@ -122,7 +122,7 @@ i {
     position: absolute;
     left: 20%;
     bottom: 50px;
-    padding: 20px;
+    padding: 20px 0;
 }
 .icons a {
   display: flex;
