@@ -173,11 +173,18 @@
         top: 20px;
       }
       .subhead {
-          top: 20%;
-          transform: translateY(-20%);
+          top: 25%;
+          transform: translateY(-25%);
+          font-size: 18px;
       }
       #date {
         font-size: 20px;
+      }
+      #main_logo {
+        padding-top: 1vh;
+      }
+      #icons-perma {
+        font-size: 12px;
       }
 
 }
