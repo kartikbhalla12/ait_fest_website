@@ -147,7 +147,7 @@
         left: 50%;
         -webkit-transform: translateX(-50%);
         transform: translateX(-50%);
-        top: 60%;
+        top: 55%;
         margin: 0;
         display: flex;
       }
@@ -155,14 +155,14 @@
 
         float: left;
         margin: 10px;
-        width: 60px;
-        height: 60px;
-        font-size: 20px;
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
         font-family: 'Odibee Sans', cursive;
         text-align: center;
         border: 3px #fff solid;
         border-radius: 100%;
-        padding: 15px 0;
+        padding: 12px 0;
       }
 
       #time_left div p{
@@ -173,8 +173,8 @@
         top: 20px;
       }
       .subhead {
-          top: 30%;
-          transform: translateY(-30%);
+          top: 20%;
+          transform: translateY(-20%);
       }
       #date {
         font-size: 20px;
