@@ -2,7 +2,7 @@ body {
   /* background-color: #fc9842;
   background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%); */
   background-color: #fc5296;
-  background-image: linear-gradient(315deg, #fc5296 0%, #f67062 74%); 
+  background-image: linear-gradient(315deg, #fc5296 0%, #f67062 74%);
 
 }
 
@@ -120,13 +120,14 @@ background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
 }
 
 #madeBy {
+    margin-top: 8vh;
     background: none;
     font-size: 15px;
     height: 10vh;
     text-align: center;
     text-transform: uppercase;
-    padding-top: 4vh;
-    margin-bottom: 3vh;
+    /* padding-top: 4vh; */
+    /* margin-bottom: 3vh; */
     font-weight: 500;
     font-family: 'Roboto Condensed', sans-serif;
 }
