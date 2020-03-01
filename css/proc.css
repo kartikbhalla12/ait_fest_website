@@ -72,3 +72,14 @@ user-drag: none;
     font-weight: 500;
     font-family: 'Roboto Condensed', sans-serif;
 }
+#coordinators {
+  margin-top: 5vh;
+}
+#coordinators a {
+  color: #fff;
+  text-decoration: none;
+}
+.name {
+  text-transform: uppercase;
+  font-weight: bold;
+}
