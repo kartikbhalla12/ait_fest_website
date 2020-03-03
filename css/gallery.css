@@ -1,6 +1,6 @@
 body {
-    background-color: #4c4177;
-background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+  background-color: #3f0d12;
+  background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
 
 
 
@@ -22,46 +22,36 @@ background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
 .co-box {
 
     display: block;
-    margin: 10px;
-    height: 270px;
-    width: 480px;
-    max-width: 25vw;
+    margin: 10px 10px;
+    width:450px;
+    /* max-width: 25vw; */
     background: rgba(255,255,255,0.1);
     color: #000;
     text-align: center;
 }
- h1 {
-     font-family: 'Oswald', sans-serif;
-     text-transform: uppercase;
-     font-weight: 500;
-     font-size:50px;
-     padding-bottom: 8vh;
- }
+.container-fluid h1{
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size:50px;
+  padding-bottom: 1vh;
 
-.co-box img {
+}
+
+.co-box a img{
   width: inherit;
-  height: inherit;
-
 }
 
- @media screen and (max-width: 440px) {
-    h1 {
-        font-size:40px;
-        padding-bottom: 5vh;
-    }
-    .container-fluid {
-        padding-top: 10vh;
 
-    }
-
-}
-@media screen and (max-width: 800px) {
-    h1 {
-        padding-bottom: 5vh;
-    }
-    .container-fluid {
-        padding-top: 10vh;
-
-    }
-
+#madeBy {
+    margin-top: 8vh;
+    background: none;
+    font-size: 15px;
+    height: 10vh;
+    text-align: center;
+    text-transform: uppercase;
+    /* padding-top: 4vh; */
+    /* margin-bottom: 3vh; */
+    font-weight: 500;
+    font-family: 'Roboto Condensed', sans-serif;
 }
