@@ -14,20 +14,23 @@ body {
     text-align: center;
 }
 .box {
+    margin-top: 5vh;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 .co-box {
-
+    border-radius: 10px;
     display: block;
     margin: 10px 10px;
     width:450px;
+    max-height: 300px;
     /* max-width: 25vw; */
     background: rgba(255,255,255,0.1);
     color: #000;
     text-align: center;
+    overflow-y: hidden;
 }
 .container-fluid h1{
   font-family: 'Oswald', sans-serif;
@@ -54,4 +57,10 @@ body {
     /* margin-bottom: 3vh; */
     font-weight: 500;
     font-family: 'Roboto Condensed', sans-serif;
+}
+.ekko-lightbox-container>div.ekko-lightbox-item {
+  overflow: hidden;
+}
+.modal-body {
+  padding: 2px;
 }
